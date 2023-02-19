@@ -40,11 +40,21 @@ class EngineTypeTest {
                 .withMessageEndingWith("Please provide valid code.");
     }
 
+   @Test
+    void constructor_shouldThrowIllegalArgumentException_whenProvidingEngineTypeCodeStartingWithC(){
+        // Arrange
+        String invalidEngineTypeCode = "C-This-is-a-test";
+
+        // Act & Assert
+        assertThatExceptionOfType(IllegalArgumentException.class)
+                .isThrownBy(() -> { new EngineType(invalidEngineTypeCode);})
+                .withMessage("Engine type codes starting with C are considered test engine types and are not allowed.");
+    }
+
     @Test
     void setDescription_shouldModifyEngineTypeDescription_whenProvidingValidValue() {
         // Arrange
         String originalCode = "ABC-123";
-        String descriptionPattern = "Engine type with code %s";
         EngineType engineType = new EngineType(originalCode);
         String newDescription = "AA_BB_CC";
 
