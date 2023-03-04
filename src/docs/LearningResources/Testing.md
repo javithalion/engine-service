@@ -28,3 +28,23 @@
 - https://semaphoreci.com/blog/testing-pyramid
 - https://www.headspin.io/blog/the-testing-pyramid-simplified-for-one-and-all
 - https://www.spiceworks.com/tech/devops/articles/black-box-vs-white-box-testing/
+
+## Unit test
+### Basics
+- https://en.wikipedia.org/wiki/Unit_testing
+- https://www.guru99.com/unit-testing-guide.html
+- https://www.youtube.com/watch?v=vZm0lHciFsQ
+- https://www.codegrip.tech/productivity/everything-you-need-to-know-about-code-coverage/
+- https://www.jetbrains.com/help/idea/viewing-code-coverage-results.html
+- https://www.baeldung.com/introduction-to-assertj
+
+### TDD
+- https://en.wikipedia.org/wiki/Test-driven_development
+- https://www.guru99.com/test-driven-development.html
+- https://www.youtube.com/watch?v=q6z3jFZl8oI
+
+### Spring Boot 
+- https://www.baeldung.com/spring-boot-testing
+- https://reflectoring.io/unit-testing-spring-boot/
+- https://www.youtube.com/watch?v=flpmSXVTqBI
+- https://www.youtube.com/watch?v=qpK1AoFWY8k
